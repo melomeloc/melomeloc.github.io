@@ -436,6 +436,10 @@ body {
   .rk-layout-ctrl-mobile {
     display: none;
   }
+
+  .rk-footer-menu{
+    font-size: 1.8rem;
+  }
 }
 @media (min-width: 64em) {
   .rk-layout-ctrl-mobile {
@@ -1143,9 +1147,7 @@ body {
     padding-top: 100%;
 
   }
-  .rk-footer-menu {
-  font-size: 2rem;
-}
+
 }
 
 #layout-grid:checked ~ .rk-portfolio .rk-tolandscape:before,
