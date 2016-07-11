@@ -1141,7 +1141,11 @@ body {
   }
   .rk-square:before {
     padding-top: 100%;
+
   }
+  .rk-footer-menu {
+  font-size: 2rem;
+}
 }
 
 #layout-grid:checked ~ .rk-portfolio .rk-tolandscape:before,
@@ -2336,9 +2340,7 @@ a.pointer{
   .slideshow-ratio{
   max-height: 500px; max-width:640px; margin:0 auto;
 }
-.rk-footer-menu {
-  font-size: 1.6rem;
-}
+
 
   }
 
