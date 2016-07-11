@@ -2146,7 +2146,7 @@ body {
   -webkit-flex-wrap: wrap;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 500;
   letter-spacing: .5px;
   list-style: none;
