@@ -2338,7 +2338,7 @@ a.pointer{
 .slideshow-ratio{
   max-height: 600px; max-width:1240px; margin:0 auto;
 }
-@media (max-width: 40em) {
+@media (max-width: 640px) {
   .slideshow-ratio{
   max-height: 500px; max-width:640px; margin:0 auto;
 }
@@ -2357,8 +2357,8 @@ a.pointer{
     width: 100%;
   }
 
-  .rk-footer-menu{
-    font-size: 1.8rem;
+  ul.rk-footer-menu{
+    font-size: 2rem;
   }
 
   }
