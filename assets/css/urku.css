@@ -2338,12 +2338,12 @@ a.pointer{
 .slideshow-ratio{
   max-height: 600px; max-width:1240px; margin:0 auto;
 }
-@media (max-width: 641px) {
+@media (max-width: 640px) {
   .slideshow-ratio{
   max-height: 500px; max-width:640px; margin:0 auto;
 }
 
-  .rk-size-6 {
+  .rk-size-6, .rk-tosize-6 {
     -webkit-box-flex: 0;
     -webkit-flex-grow: 0;
     -ms-flex-positive: 0;
