@@ -2343,7 +2343,7 @@ a.pointer{
   max-height: 500px; max-width:640px; margin:0 auto;
 }
 
-  .rk-size-6, .rk-tosize-6 {
+  /*.rk-size-6, .rk-tosize-6 {
     -webkit-box-flex: 0;
     -webkit-flex-grow: 0;
     -ms-flex-positive: 0;
@@ -2355,7 +2355,7 @@ a.pointer{
     -ms-flex-preferred-size: auto;
             flex-basis: auto;
     width: 100%;
-  }
+  }*/
 
   ul.rk-footer-menu{
     font-size: 2rem;
