@@ -33,7 +33,7 @@ body {
   padding-bottom: 0;
   width: 100%;
 }
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   .rk-container {
     padding-left: 0;
     padding-right: 0;
@@ -47,7 +47,7 @@ body {
 .top-fixed .rk-main {
   padding-top: 3.5rem;
 }
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   .rk-main {
     position: relative;
   }
@@ -80,7 +80,7 @@ body {
           justify-content: space-between;
   padding-top: 0.5rem;
 }
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   .rk-topbar {
     padding-bottom: 0;
   }
@@ -105,7 +105,7 @@ body {
   position: relative;
   top: -1px;
 }
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   .rk-logo {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -204,7 +204,7 @@ body {
       -ms-transform-origin: center left;
           transform-origin: center left;
 }
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   .rk-mobile-menu + label {
     display: none;
   }
@@ -293,7 +293,7 @@ body {
 .top-fixed .rk-layout-ctrl-cont:first-of-type {
   top: 2.65rem;
 }
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   .rk-layout-ctrl-cont {
     padding-right: 0;
     top: 2.25rem;
@@ -337,7 +337,7 @@ body {
     display: inline-block;
   }
 }
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   .rk-layout-ctrl {
     opacity: 1;
     position: static;
@@ -351,7 +351,7 @@ body {
   display: none;
   color: #627862;
 }
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   .layout-ctrl-input:checked + .rk-layout-ctrl-cont label {
     display: block;
   }
@@ -441,7 +441,7 @@ body {
     font-size: 1.5rem;
   }
 }
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   .rk-layout-ctrl-mobile {
     display: none;
   }
@@ -577,7 +577,7 @@ body {
   font-size: 1.5em;
   margin-bottom: 0;
 }
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   .item-meta {
     font-size: 1vw;
   }
@@ -733,7 +733,7 @@ body {
   }
 }
 
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   .rk-portfolio .ae-masonry-lg-2 .item-meta h2,
   .rk-portfolio .ae-grid__item[class*="item-lg"]:nth-child(1):nth-last-child(2) h2,
   .rk-portfolio .ae-grid__item[class*="item-lg"]:nth-child(1):nth-last-child(2) ~ .ae-grid__item[class*="item-lg"] h2 {
@@ -1950,7 +1950,7 @@ body {
   display: none;
   padding: 1.5rem 0rem 0.4rem 0rem;
 }
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   .rk-navigation {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2037,7 +2037,7 @@ body {
 .rk-menu__item li{
   margin:0;
 }
-@media (max-width: 64em) {
+@media (max-width: 1024px) {
   #mobile-menu:checked ~ .rk-topbar .rk-navigation {
     display: -webkit-box;
     display: -webkit-flex;
@@ -2176,7 +2176,7 @@ body {
 .rk-categories-menu .rk-menu__link {
   padding: 0.5rem;
 }
-@media (min-width: 64em) {
+@media (min-width: 1024px) {
   .rk-categories-menu .rk-menu__item:first-child {
     padding-left: 0;
   }
