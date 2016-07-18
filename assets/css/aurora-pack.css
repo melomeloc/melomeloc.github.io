@@ -34,7 +34,7 @@ html {
   padding-left: .25rem;
   padding-right: .25rem;
 }
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .ae-container {
     max-width: 40rem;
   }
@@ -59,7 +59,7 @@ html {
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .ae-container-fluid {
     max-width: 88.88889em;
     width: 95vw;
@@ -527,7 +527,7 @@ html {
           order: 12;
 }
 
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .item-sm--auto {
     -webkit-box-flex: 1;
     -webkit-flex: 1;
@@ -2023,7 +2023,7 @@ html {
           column-count: 12;
 }
 
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .ae-masonry-sm-1 {
     -webkit-column-count: 1;
        -moz-column-count: 1;
@@ -2902,7 +2902,7 @@ select.ae-input--lg {
   display: none;
 }
 
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .au-sm-inline {
     display: inline;
   }
@@ -3092,7 +3092,7 @@ select.ae-input--lg {
   text-align: justify;
 }
 
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .au-sm-ta-left {
     text-align: left;
   }
@@ -3683,7 +3683,7 @@ select.ae-input--lg {
   padding: 100%;
 }
 
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .au-sm-pp-1 {
     padding: 8.33333%;
   }
@@ -3887,7 +3887,7 @@ select.ae-input--lg {
   padding-top: 100%;
 }
 
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .au-sm-ptp-1 {
     padding-top: 8.33333%;
   }
@@ -4091,7 +4091,7 @@ select.ae-input--lg {
   padding-right: 100%;
 }
 
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .au-sm-prp-1 {
     padding-right: 8.33333%;
   }
@@ -4295,7 +4295,7 @@ select.ae-input--lg {
   padding-bottom: 100%;
 }
 
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .au-sm-pbp-1 {
     padding-bottom: 8.33333%;
   }
@@ -4499,7 +4499,7 @@ select.ae-input--lg {
   padding-left: 100%;
 }
 
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .au-sm-plp-1 {
     padding-left: 8.33333%;
   }
@@ -4703,7 +4703,7 @@ select.ae-input--lg {
   visibility: visible;
 }
 
-@media (min-width: 40em) {
+@media (max-width: 40em) {
   .au-sm-v-hidden {
     visibility: hidden;
   }
