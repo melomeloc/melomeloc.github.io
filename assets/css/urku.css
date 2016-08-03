@@ -2197,7 +2197,7 @@ body {
   background-image: url("../img/nextdoor_coverphoto.jpg");
 
 }
-@media (max-width: 1024em) {
+@media (max-width: 40em) {
   .newclass {
     background-size: 100% auto;
   }
