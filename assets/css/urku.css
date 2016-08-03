@@ -2195,15 +2195,23 @@ body {
 
 .item-nextdoor {
   background-image: url("../img/nextdoor_coverphoto.jpg");
+
+}
+@media (max-width: 1024em) {
+  .newclass {
+    background-size: 100% auto;
+  }
 }
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-nextdoor {
     background-position: center left;
+
   }
 }
 
 .item-outsoul {
   background-image: url("../img/Outsoul_CoverPhoto.jpg");
+
 }
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-outsoul {
