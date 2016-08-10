@@ -479,7 +479,7 @@ body {
   width: 100%;
 }
 .rk-item:hover .item-meta {
-  opacity: 1;
+  opacity: 0.9;
   visibility: visible;
   background-color: #b0c6b0;
 }
@@ -2166,12 +2166,12 @@ body {
 
 .rk-categories-menu {
   display: inline-block;
-  padding-top: 1.6rem;
-  padding-bottom: 4.8rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .rk-categories-menu .rk-menu__item {
-  padding-left: 2rem;
-  padding-right: 1.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .rk-categories-menu .rk-menu__link {
   padding: 0.5rem;
@@ -2197,13 +2197,21 @@ body {
   background-image: url("../img/nextdoor_coverphoto.jpg");
 
 }
+
+.item-material {
+  background-image: url("../img/materialdesign_challenge_cover.png");
+
+}
+
 @media (max-width: 40em) {
   .newclass {
     background-size: 100% auto;
+    background-repeat: no-repeat;
   }
 }
+
 @media (min-width: 40em) {
-  #layout-grid:checked ~ .rk-portfolio .item-nextdoor {
+  #layout-grid:checked ~ .rk-portfolio .item-nextdoor .item-material {
     background-position: center left;
 
   }
@@ -2393,3 +2401,10 @@ a.pointer{
 
 .w3-btn-floating {-webkit-transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s;
   transition:background-color .3s,color .15s,box-shadow .3s,opacity 0.3s}
+
+
+
+@media (max-width: 40em) {
+  .coverphoto-fix {
+    height:50vh;
+  }
