@@ -2406,5 +2406,11 @@ a.pointer{
 
 @media (max-width: 40em) {
   .coverphoto-fix {
-    height:50vh;
+    height:60vh;
   }
+
+
+.inlinelink {
+  color: #2E4C52;
+
+}
