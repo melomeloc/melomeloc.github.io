@@ -2575,6 +2575,7 @@ table {
   border-spacing: 0;
   max-width: 100%;
   width: 100%;
+  font-size: 1rem;
 }
 
 th {
@@ -2585,7 +2586,7 @@ th {
 th,
 td {
   line-height: inherit;
-  padding: .25rem 1rem;
+  padding: .1rem .5rem;
 }
 
 td {
