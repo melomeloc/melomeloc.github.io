@@ -141,3 +141,17 @@ figcaption{
 .lightcolor-text{
   color:#f3efe3;
 }
+
+.lightcolor-text-inactive{
+  color:rgba(243,239,227,0.3);
+}
+
+.lightcolor-text-inactive:hover {
+  color:rgba(243,239,227,0.3);
+   text-decoration: underline;
+}
+
+.lightcolor-text:hover {
+   color:#f3efe3;
+   text-decoration: underline;
+}
