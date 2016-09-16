@@ -2367,6 +2367,19 @@ body {
 .Nextdoor_hero {
   background-image: url("../img/nextdoor_casestudy_hero.png");
 }
+
+@media (max-width: 75em) {
+  .Nextdoor_hero {
+  background-image: url("../img/nextdoor_casestudy_hero_sm.png");
+}
+}
+
+@media (max-width: 40em) {
+  .Nextdoor_hero {
+  background-image: url("../img/nextdoor_casestudy_hero_xs.png");
+}
+}
+
 a.pointer:hover{
   cursor: pointer;
   cursor: hand;
