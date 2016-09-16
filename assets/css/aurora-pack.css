@@ -65,7 +65,7 @@ html {
     width: 95vw;
   }
   .ae-container-fluid--inner {
-    max-width: 68.88889em;
+    max-width: 68.88889em;  /*Original 68.88889em*/
     width: 82vw;
   }
 }
