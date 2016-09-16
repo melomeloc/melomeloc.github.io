@@ -2256,6 +2256,8 @@ body {
   background-image: url("../img/Outsoul_CoverPhoto.jpg");
 
 }
+
+
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-outsoul {
     background-position: center left;
@@ -2385,6 +2387,17 @@ a.pointer{
   background-image: url("../img/outsoul_hero.png");
 }
 
+@media (max-width: 75em) {
+.outsoul_hero {
+  background-image: url("../img/outsoul_hero_sm.png");
+}
+}
+
+@media (max-width: 40em) {
+.outsoul_hero {
+  background-image: url("../img/outsoul_hero_xs.png");
+}
+}
 
 .slideshow-ratio{
   max-height: 600px; max-width:1240px; margin:0 auto;
