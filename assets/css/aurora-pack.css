@@ -100,8 +100,8 @@ html {
       -ms-flex: 0 0 100%;
           flex: 0 0 100%;
   min-height: 1px;
-  padding-left: .25rem;
-  padding-right: .25rem;
+/*  padding-left: .25rem;
+  padding-right: .25rem;*/
   position: relative;
 }
 
