@@ -2294,7 +2294,7 @@ body {
 
 @media (max-width: 40em) {
   .newclass {
-    background-size: 100% auto;
+    background-size: 120% auto;
     background-repeat: no-repeat;
   }
 }
@@ -2558,7 +2558,7 @@ a.pointer{
 
 @media (max-width: 40em) {
   .coverphoto-fix {
-    height:70vh;
+    height:90vh;
   }
 
 
