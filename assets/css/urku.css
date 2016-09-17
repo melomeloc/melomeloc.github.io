@@ -2198,8 +2198,15 @@ body {
 }
 
 .item-nextdoor {
-  background-image: url("../img/nextdoor_coverphoto.jpg");
+  background-image: url("../img/nextdoor_coverphoto.png");
 
+}
+
+@media (max-width: 40em) {
+  .item-nextdoor {
+  background-image: url("../img/nextdoor_coverphoto_sq.png");
+
+}
 }
 
 .item-material {
