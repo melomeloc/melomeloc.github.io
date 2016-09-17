@@ -2260,10 +2260,16 @@ body {
 }
 
 .item-outsoul {
-  background-image: url("../img/Outsoul_CoverPhoto.jpg");
+  background-image: url("../img/Outsoul_CoverPhoto.png");
 
 }
 
+@media(max-width: 40em){
+.item-outsoul {
+  background-image: url("../img/Outsoul_CoverPhoto_sq.png");
+
+}
+}
 
 @media (min-width: 40em) {
   #layout-grid:checked ~ .rk-portfolio .item-outsoul {
