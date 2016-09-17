@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <title>Melody :: UX/UI Designer</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
      <link rel="icon" href="assets/img/favicon.ico">
     <link rel="stylesheet" href="assets/css/aurora-pack.css">
     <link rel="stylesheet" href="assets/css/aurora-theme-base.css">
@@ -12,6 +13,17 @@
   </head>
   <body class="top-fixed">
      <header class="ae-container-fluid ae-container-fluid--full rk-header ">
+        <nav class="mobile">
+              <button>Toggle</button>
+              <div class=" rk-topbar ae-container-fluid--full item-lg--auto mc-mobile-menu rk-header" >
+                    <a href="index.html" >UX Design</a>
+                    <a href="MaterialDesign_Challenge.html" style="color: #ac936f;">Material UI Challenge</a>
+                    <a href="aboutmelody.html">About Melody</a>
+                    <a href="contactmelody.html">Contact</a>
+              </div>
+      </nav>
+
+
 
       <div class="ae-container-fluid rk-topbar">
         <h1 class="rk-logo"><a href="index.html">Melody Cheung<sup></sup></a></h1>
@@ -495,6 +507,8 @@
         </div>
       </div>
     </footer>
-
+<script> $('button').click(function() {
+  $(this).toggleClass('expanded').siblings('div').slideToggle();
+});</script>
   </body>
 </html>
